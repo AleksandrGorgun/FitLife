@@ -16,7 +16,7 @@ user_height = float(input(Growth_curve))
 # 3. Логика расчетов (Функции как "черный ящик": используем арифметику)
 water_per_kg = 30
 in_liter = 1000
-bmi = user_weight / (user_height ** 2)  #Расчет индекса массы тела
+bmi = user_weight / (user_height ** 2)  # Расчет индекса массы тела
 
 
 # Подсчет воды: вес * 30 мл
