@@ -2,8 +2,8 @@
 
 
 # 1. Знакомство
-user_name = input("Как тебя зовут? ") 
-print("Привет!", user_name) 
+user_name = input("Как тебя зовут? ")
+print("Привет!", user_name)
 user_age = int(input("Сколько тебе лет? "))
 
 
@@ -11,8 +11,7 @@ user_age = int(input("Сколько тебе лет? "))
 Body_weight = "Укажите свой вес в кг.(используйте точку): "
 Growth_curve = "Введите рост в метрах, используя точку: "
 user_weight = float(input(Body_weight))
-user_height = float(input(Growth_curve)) 
-
+user_height = float(input(Growth_curve))
 
 # 3. Логика расчетов (Функции как "черный ящик": используем арифметику)
 water_per_kg = 30
@@ -22,9 +21,9 @@ bmi = user_weight / (user_height ** 2)  #Расчет индекса массы 
 
 # Подсчет воды: вес * 30 мл
 # Расчет нормы воды в день в милилитрах
-water_ml = user_weight * water_per_kg   
- # Перевод нормы воды в день из милилитров в литры
-water_l = water_ml / in_liter    
+water_ml = user_weight * water_per_kg
+# Перевод нормы воды в день из милилитров в литры
+water_l = water_ml / in_liter
 
 
 # 4. Вывод красивого результата
