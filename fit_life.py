@@ -80,7 +80,7 @@ print(f"Твой Индекс Массы Тела: {round(bmi, 1)}")
 
 # Логика вывода нужного слова "литр" "литра" "литров"
 # Проверяем есть ли у числа дробная часть
-fractional_part = (water_l % 1) != 0  
+fractional_part = (water_l % 1) != 0
 water = int(water_l)
 last_digit_water = (water) % 10
 last_two_water = (water) % 100
