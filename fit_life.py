@@ -35,7 +35,7 @@ while True:
         else:
             print("Пожалуйста укажите вес от 5 до 200 кг.")
     except ValueError:
-        print("Вес должен быть числом. Например 45.6 или 76")       
+        print("Вес должен быть числом. Например 45.6 или 76")
 while True:
     height = input(growth_curve)
     try:
@@ -79,7 +79,8 @@ print(f"Отчет для пользователя: {user_name} {user_age} {age_
 print(f"Твой Индекс Массы Тела: {round(bmi, 1)}")
 
 # Логика вывода нужного слова "литр" "литра" "литров"
-fractional_part = (water_l % 1) != 0   # Проверяем есть ли у числа дробная часть
+# Проверяем есть ли у числа дробная часть
+fractional_part = (water_l % 1) != 0  
 water = int(water_l)
 last_digit_water = (water) % 10
 last_two_water = (water) % 100
